@@ -3,7 +3,7 @@
 <p align="center"> MÓDULO FUNÇÕES E COLEÇÕES.</p>
 
 <p align="center">
-<img width="160" height="100" src="assets/images/funcoes.png"/>
+<img width="300" height="190" src="assets/images/funcoes.png"/>
 
 
 </p>
