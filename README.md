@@ -9,8 +9,6 @@
 </p>
 
 
-
-
 ### » Tópicos desenvolvidos
 
 - Princiapais características da função: Tipo de retorno, nome da função e Parâmetros recebidos;
