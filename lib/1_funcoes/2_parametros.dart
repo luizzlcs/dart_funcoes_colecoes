@@ -27,11 +27,11 @@ void main() {
 
   // misturando tudo: parametros normais com parametros obrigatórios normais.
 
-  parametrosNormaisComNomeados('84 9 8836-9729', nome: 'Luiz Carlos', idade: 36);
-
+  parametrosNormaisComNomeados('84 9 8836-9729',
+      nome: 'Luiz Carlos', idade: 36);
 }
 
-int somaInteiros(int n1, int n2) {
+somaInteiros(int n1, int n2) {
   return n1 + n2;
 }
 
@@ -52,7 +52,6 @@ double? somaDoublesObrigatorios2({required double? n1, required double n2}) {
   // é o mesmo que
   // if(n1 == null){
   // return n1 = 0}
-
 }
 
 // Parametros default
@@ -65,7 +64,14 @@ int somaInteiroOpcional([int n1 = 0, int n2 = 0]) {
 }
 // minsturando tudo
 // Os parametro opcionais e os nomeados precisam ser os últimos
-parametrosNormaisComNomeados(String telefone, {required String nome, required int idade}){
 
-
+parametrosNormaisComNomeados(String telefone,
+    {required String nome, required int idade}) {
+  print(
+      '''
+      parametros:
+              telefone: $telefone
+              nome: $nome
+              idade: $idade
+  ''');
 }
