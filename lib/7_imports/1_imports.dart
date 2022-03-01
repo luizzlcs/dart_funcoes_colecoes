@@ -1,4 +1,4 @@
-// Outra forma de fazer o imort é utilizar package, mapea toda a pasta lib
+// Outra forma de fazer o imort é utilizar package, mapear toda a pasta lib
 //import 'package:dart_funcoes_colecoes/7_imports/somas/soma.dart';
 import 'nova_soma/soma.dart' as nova_soma; // Use alias quando houver um arquivo com nome de funções semelhantes
 import 'somas/soma.dart' as soma;

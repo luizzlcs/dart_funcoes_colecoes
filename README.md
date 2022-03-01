@@ -16,6 +16,12 @@
 - Parâmetros nomeados são nulables por default;
 - Parâmetros Obrigatórios;
 - Parâmetros opcionais;
+- Listas: Array BiDimensional, Operador Spread, Any, fazendo requisições de objetos e ordenando listas;
+- Uso do set, uso do forEach em set, difference e intersection, union e lookup;
+- Map: update, putIfAbsentm, map dentro map;
+- Tratamento de Exceções: throw Exception, FormatException, catch, TypeError, finally;
+- Imports;
+- Enums: byName, asMap.
 
 
 
