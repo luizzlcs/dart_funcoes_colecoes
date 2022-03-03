@@ -28,4 +28,6 @@ void main() {
   print(corAzulPeloMap);
 }
 
+// Criando enums:
+
 enum Cores { Azul, Verde, Branco, Vermelho, Preto, Amarelo, Roxo, Vinho }

@@ -1,4 +1,6 @@
+
 void main() {
+  // Criando uma lista para comparar com o set
   var numerosLista = <int?>[];
   numerosLista.add(1);
   numerosLista.add(2);

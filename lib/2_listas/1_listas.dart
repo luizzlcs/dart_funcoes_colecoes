@@ -1,15 +1,18 @@
 void main() {
   var numeros = List.generate(11, (Index) => Index);
 
-  // Pode ser feito assim
+  // Pegando os elementos da lista com o forEach
+  print('----- IMPRIMINDO COM forEach -----');
   numeros.forEach((element) {
     print(element);
   });
 
   // e também assim
+  print('----- IMPRIMINDO COM forEach RESUMIDO -----');
   numeros.forEach(print);
 
   // Ou ainda assim
+  print('----- IMPRIMINDO COM forEach -----');
   numeros.forEach(printAcademia);
 
   // Expanded
@@ -20,14 +23,19 @@ void main() {
     [3, 4],
   ];
 
+  print('----- IMPRIMINDO ARRAY BIDIMENSIONAL -----');
+  print(lista[0][0]);
   print(lista[1][1]);
 
   var novaLista = [...lista[0], ...lista[1]];
+  
+  print('----- ADICIONANDO A LISTA COM OPERADOR SPREAD -----');
   print('Operador Spread: $novaLista');
 
-  // A forma elegante de se fazer é usando o expanded
+  // A forma elegante de se fazer é usando o expanded, aciona todos os elementos do array bidimensional.
 
   var novaLista2 = lista.expand((numeros) => numeros);
+  print('----- USANDO O EXPAND -----');
   print('Usando o expand: ${novaLista2.toList()}');
   // Sobre o Spread: http://www.macoratti.net/20/08/dart_spread1.htm
 
@@ -106,7 +114,7 @@ void main() {
     return idadePaciente1.compareTo(idadePaciente2);
   });
   print('-----ORDENANDO LISTA 2 -----');
-  print('Ordenando com Sort e ComparTo: $listaPacientes2');
+  print('Ordenando com Sort e CompareTo: $listaPacientes2');
 }
 
 //passando funcão com parâmetro.
