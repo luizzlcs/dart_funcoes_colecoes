@@ -9,7 +9,7 @@
 </p>
 
 
-### » Tópicos desenvolvidos
+### » Tópicos estudados e consolidados
 
 - Princiapais características da função: Tipo de retorno, nome da função e Parâmetros recebidos;
 - Parâmetros Obrigatórios por fefault;
