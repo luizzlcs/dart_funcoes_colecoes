@@ -1,4 +1,3 @@
-
 void main() {
   // Criando uma lista para comparar com o set
   var numerosLista = <int?>[];
@@ -49,6 +48,4 @@ void main() {
   //Lookup - Retorna valor passado no parâmetro.
 
   print('Lookup: ${numeros1.lookup(5)}');
-
- 
 }
