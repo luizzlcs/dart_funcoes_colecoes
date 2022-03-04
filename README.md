@@ -70,7 +70,7 @@ void main(){
   }
 ```
 <p align="center">
-<img width="190" height="240" src="assets/images/atividade1.png"/>
+<img width="220" height="270" src="assets/images/atividade1.png"/>
 </p>
 
 ```
@@ -110,7 +110,7 @@ void main(){
 }
 ```
 <p align="center">
-<img width="190" height="240" src="assets/images/atividade2.png"/>
+<img width="260" height="290" src="assets/images/atividade2.png"/>
 </p>
 
 ```
@@ -128,7 +128,7 @@ print(' PESSOAS MAIORES DE 18 ANOS');
   }
 ```
 <p align="center">
-<img width="190" height="240" src="assets/images/atividade3.png"/>
+<img width="220" height="270" src="assets/images/atividade3.png"/>
 </p>
 
 ```
