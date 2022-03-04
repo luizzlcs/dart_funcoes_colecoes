@@ -22,6 +22,8 @@ void main() {
   //! Baseado na lista acima.
   //! 1 - Remova os pacientes duplicados e apresente a nova lista
 
+  print('📷 PRINT DA LISTA SEM DUPLICATAS.');
+  print('');
   var retornaPessoasNaoDuplicados = pessoas.toSet();
   tratandoDadosPessoas1(retornaPessoasNaoDuplicados);
 
@@ -32,7 +34,7 @@ void main() {
   List<String> pessoasMasculino = [];
   List<String> pessoasFeminino = [];
 
-  print('-' * 15);
+  //print('-' * 15);
   for (var item in retornaPessoasNaoDuplicados) {
     var dadosPessoas = item.split('|');
     dadosPessoas[0];
@@ -48,17 +50,23 @@ void main() {
   }
 
   print('-' * 25);
+  print('');
   print('QTD PESSOAS DO SEXO MASCULINO: $m');
+  print('');
   for (var item in pessoasMasculino) {
     print(item);
   }
-  print('🏃' * 25);
+  print('');
+  print('🔸' * 8);
+  print('');
   print('QTD PESSOAS DO SEXO FEMININO: $f');
+  print('');
   for (var item in pessoasFeminino) {
     print(item);
   }
   //! 3 - Filtrar e deixar a lista somente com pessoas maiores de 18 anos e apresente essas pessoas pelo nome
   print(' PESSOAS MAIORES DE 18 ANOS');
+  print('');
   for (var item in retornaPessoasNaoDuplicados) {
     var dadosPessoas = item.split('|');
     var nomePessoas = dadosPessoas[0];
@@ -94,6 +102,7 @@ void main() {
 tratandoDadosPessoas1(Set<String> nomeDaLista) {
   for (var item in nomeDaLista) {
     var dadosPessoas = item.split('|');
-    print(dadosPessoas[0]);
+
+    print('${dadosPessoas[0]} - ${dadosPessoas[1]}');
   }
 }
